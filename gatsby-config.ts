@@ -8,13 +8,13 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteTitle: `Soolog`,
+    siteTitleAlt: `Soo Blog`,
+    siteHeadline: `Soo Blog - Frontend Developer Blog`,
+    siteUrl: `https://sooooo.an.github.io`,
+    siteDescription: `Front-end 4th Year Development Blog`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@sooooo.an`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -34,12 +34,12 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Github`,
+            url: `https://github.com/sooooo-an`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `TIL`,
+            url: `https://github.com/sooooo-an/TIL`,
           },
         ],
       },
@@ -53,9 +53,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Soolog`,
+        short_name: `Soolog`,
+        description: `Front-end 4th Year Development Blog`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
